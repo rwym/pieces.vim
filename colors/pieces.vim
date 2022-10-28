@@ -80,8 +80,8 @@ call s:HL('Visual'		  , s:pieces.black , s:pieces.white, 'none'	   )
 call s:HL('VisualNOS'	  , s:pieces.black , s:pieces.white, 'none'	   )
 
 " SEARCH
-call s:HL('Search'		  , s:pieces.purple , s:pieces.grey, 'none'	   )
-call s:HL('IncSearch'	  , s:pieces.purple, s:pieces.grey , 'none'	   )
+call s:HL('Search'		  , s:pieces.black , s:pieces.white, 'none'	   )
+call s:HL('IncSearch'	  , s:pieces.black, s:pieces.white , 'none'	   )
 
 " SPELLING
 call s:HL('SpellBad'	  , s:pieces.white , s:pieces.red	  , 'none'	   )
