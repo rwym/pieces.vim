@@ -53,7 +53,7 @@ function! s:HL(item, fgColor, bgColor, style, ...)
 endfunction
 
 " PRIMITIVES
-call s:HL('Boolean'		  , s:pieces.violet, s:pieces.black , 'bold'	   )
+call s:HL('Boolean'		  , s:pieces.purple, s:pieces.black , 'bold'	   )
 call s:HL('Character'	  , s:pieces.violet, s:pieces.black , 'bold'	   )
 call s:HL('Constant'	  , s:pieces.violet, s:pieces.black , 'bold'	   )
 call s:HL('Float'		  , s:pieces.violet, s:pieces.black , 'bold'	   )
@@ -80,8 +80,8 @@ call s:HL('Visual'		  , s:pieces.black , s:pieces.white, 'none'	   )
 call s:HL('VisualNOS'	  , s:pieces.black , s:pieces.white, 'none'	   )
 
 " SEARCH
-call s:HL('Search'		  , s:pieces.black , s:pieces.purple, 'none'	   )
-call s:HL('IncSearch'	  , s:pieces.purple, s:pieces.black , 'none'	   )
+call s:HL('Search'		  , s:pieces.black , s:pieces.grey, 'none'	   )
+call s:HL('IncSearch'	  , s:pieces.purple, s:pieces.grey , 'none'	   )
 
 " SPELLING
 call s:HL('SpellBad'	  , s:pieces.white , s:pieces.red	  , 'none'	   )
@@ -114,8 +114,8 @@ call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 " TYPES
 call s:HL('Type'		  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
 call s:HL('Typedef'	  	  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.purple	, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.purple	, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
@@ -130,7 +130,7 @@ call s:HL('Cursor'		  , s:pieces.white , s:pieces.black , 'none'	   , 'gui_macvi
 call s:HL('Underlined'	  , s:pieces.white, s:pieces.black , 'underline')
 call s:HL('SpecialKey'	  , s:pieces.white	, s:pieces.black , 'none'	   )
 call s:HL('NonText'		  , s:pieces.white , s:pieces.black , 'none'	   )
-call s:HL('Directory'  	  , s:pieces.yellow, s:pieces.black , 'none'	   )
+call s:HL('Directory'  	  , s:pieces.blue, s:pieces.black , 'none'	   )
 
 " FOLD
 call s:HL('FoldColumn'	  , s:pieces.white, s:pieces.black , 'none'	   )
