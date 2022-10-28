@@ -80,7 +80,7 @@ call s:HL('Visual'		  , s:pieces.black , s:pieces.white, 'none'	   )
 call s:HL('VisualNOS'	  , s:pieces.black , s:pieces.white, 'none'	   )
 
 " SEARCH
-call s:HL('Search'		  , s:pieces.black , s:pieces.grey, 'none'	   )
+call s:HL('Search'		  , s:pieces.purple , s:pieces.grey, 'none'	   )
 call s:HL('IncSearch'	  , s:pieces.purple, s:pieces.grey , 'none'	   )
 
 " SPELLING
@@ -112,10 +112,10 @@ call s:HL('Keyword'		  , s:pieces.white	, s:pieces.black , 'bold'	   )
 call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 
 " TYPES
-call s:HL('Type'		  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('Typedef'	  	  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.violet, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.violet, s:pieces.black , 'none'	   )
+call s:HL('Type'		  , s:pieces.white	, s:pieces.black , 'none'	   )
+call s:HL('Typedef'	  	  , s:pieces.white	, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.white, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.white, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
