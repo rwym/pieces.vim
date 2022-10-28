@@ -114,8 +114,8 @@ call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 " TYPES
 call s:HL('Type'		  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
 call s:HL('Typedef'	  	  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.white, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.white, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.violet, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.violet, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
