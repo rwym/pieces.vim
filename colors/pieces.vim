@@ -106,9 +106,9 @@ call s:HL('PreCondit'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 call s:HL('PreProc'		  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 
 " BINDINGS
-call s:HL('Identifier'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
-call s:HL('Function'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
-call s:HL('Keyword'		  , s:pieces.white	, s:pieces.black , 'bold'	   )
+call s:HL('Identifier'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
+call s:HL('Function'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
+call s:HL('Keyword'		  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 
 " TYPES
@@ -140,10 +140,10 @@ call s:HL('Folded'		  , s:pieces.white, s:pieces.black , 'none'	   )
 call s:HL('MatchParen'	  , s:pieces.red, s:pieces.black , 'bold'	   )
 
 " POPUP
-call s:HL('Pmenu'		  , s:pieces.black , s:pieces.white, 'none'	   )
-call s:HL('PmenuSbar'	  , s:pieces.black , s:pieces.white, 'none'	   )
-call s:HL('PmenuSel'	  , s:pieces.white , s:pieces.black, 'none'	   )
-call s:HL('PmenuThumb'	  , s:pieces.white, s:pieces.white, 'none'	   )
+call s:HL('Pmenu'		  , s:pieces.white , s:pieces.black, 'none'	   )
+call s:HL('PmenuSbar'	  , s:pieces.white , s:pieces.black, 'none'	   )
+call s:HL('PmenuSel'	  , s:pieces.violet , s:pieces.black, 'none'	   )
+call s:HL('PmenuThumb'	  , s:pieces.violet, s:pieces.white, 'none'	   )
 
 " SPLITS
 call s:HL('VertSplit'	  , s:pieces.white, s:pieces.black , 'none'	   )
