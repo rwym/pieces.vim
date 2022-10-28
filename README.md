@@ -3,7 +3,8 @@
 
 Vim color scheme. White text on a black background. No syntax highlighting.
 
-I don't like extravagant and useless things, so I removed the code highlighting. As for why I used purple to mark strings, numbers, and why the name of this theme is pieces. because of Puella Magi Madoka Magica.
+I don't like extravagant and useless things, so I removed the code highlighting. As for why I used purple to mark strings, numbers, and why the name of this theme is pieces.
+Because of Puella Magi Madoka Magica.
 
 ## Installation
 
