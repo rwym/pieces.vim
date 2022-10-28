@@ -53,7 +53,7 @@ function! s:HL(item, fgColor, bgColor, style, ...)
 endfunction
 
 " PRIMITIVES
-call s:HL('Boolean'		  , s:pieces.purple, s:pieces.black , 'bold'	   )
+call s:HL('Boolean'		  , s:pieces.violet, s:pieces.black , 'bold'	   )
 call s:HL('Character'	  , s:pieces.violet, s:pieces.black , 'bold'	   )
 call s:HL('Constant'	  , s:pieces.violet, s:pieces.black , 'bold'	   )
 call s:HL('Float'		  , s:pieces.violet, s:pieces.black , 'bold'	   )
@@ -69,11 +69,11 @@ call s:HL('Todo'		  , s:pieces.purple, s:pieces.black , 'none'	   )
 
 " LINES, COLUMNS
 call s:HL('LineNr'		  , s:pieces.white, s:pieces.black , 'italic'	   )
-call s:HL('CursorLine'	  , s:pieces.white , s:pieces.white, 'none'	   )
+call s:HL('CursorLine'	  , s:pieces.white , s:pieces.black, 'none'	   )
 call s:HL('CursorLineNr'  , s:pieces.white, s:pieces.black , 'none'	   )
 
-call s:HL('ColorColumn'	  , s:pieces.white , s:pieces.white, 'none'	   )
-call s:HL('CursorColumn'  , s:pieces.white, s:pieces.white, 'none'	   )
+call s:HL('ColorColumn'	  , s:pieces.white , s:pieces.black, 'none'	   )
+call s:HL('CursorColumn'  , s:pieces.white, s:pieces.black, 'none'	   )
 
 " VISUAL MODE
 call s:HL('Visual'		  , s:pieces.black , s:pieces.white, 'none'	   )
@@ -106,16 +106,16 @@ call s:HL('PreCondit'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 call s:HL('PreProc'		  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 
 " BINDINGS
-call s:HL('Identifier'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
-call s:HL('Function'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
-call s:HL('Keyword'		  , s:pieces.grey	, s:pieces.black , 'bold'	   )
+call s:HL('Identifier'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
+call s:HL('Function'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
+call s:HL('Keyword'		  , s:pieces.white	, s:pieces.black , 'bold'	   )
 call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 
 " TYPES
 call s:HL('Type'		  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
 call s:HL('Typedef'	  	  , s:pieces.lightpurple	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.purple	, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.purple	, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.white, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.white, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
