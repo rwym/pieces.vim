@@ -1,4 +1,5 @@
-# `pieces.vim`
+# pieces.vim
+![](./humora.jpg)
 
 Vim color scheme. White text on a black background. No syntax highlighting.
 
