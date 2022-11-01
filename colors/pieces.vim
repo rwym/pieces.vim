@@ -106,16 +106,16 @@ call s:HL('PreCondit'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 call s:HL('PreProc'		  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 
 " BINDINGS
-call s:HL('Identifier'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
+call s:HL('Identifier'	  , s:pieces.grey	, s:pieces.black , 'bold'	   )
 call s:HL('Function'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 call s:HL('Keyword'		  , s:pieces.white	, s:pieces.black , 'bold'	   )
 call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 
 " TYPES
-call s:HL('Type'		  , s:pieces.white	, s:pieces.black , 'none'	   )
-call s:HL('Typedef'	  	  , s:pieces.white	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.white, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.white, s:pieces.black , 'none'	   )
+call s:HL('Type'		  , s:pieces.grey	, s:pieces.black , 'none'	   )
+call s:HL('Typedef'	  	  , s:pieces.grey	, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.grey, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.grey, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
