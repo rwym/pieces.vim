@@ -14,6 +14,7 @@ let s:pieces = {}
 let s:pieces.black = [16, "#000000"]
 let s:pieces.white = [255, "#eeeeee"]
 let s:pieces.grey = [243, "#767676"]
+let s:pieces.gray = [7, "#c0c0c0"]
 let s:pieces.cyan = [24, "#00afaf"]
 let s:pieces.darkblue = [18, "#000087"]
 let s:pieces.darkgreen = [22, "#005f00"]
@@ -112,10 +113,10 @@ call s:HL('Keyword'		  , s:pieces.white	, s:pieces.black , 'bold'	   )
 call s:HL('Operator'	  , s:pieces.white	, s:pieces.black , 'bold'	   )
 
 " TYPES
-call s:HL('Type'		  , s:pieces.grey	, s:pieces.black , 'none'	   )
-call s:HL('Typedef'	  	  , s:pieces.grey	, s:pieces.black , 'none'	   )
-call s:HL('StorageClass'  , s:pieces.grey, s:pieces.black , 'none'	   )
-call s:HL('Structure'	  , s:pieces.grey, s:pieces.black , 'none'	   )
+call s:HL('Type'		  , s:pieces.gray	, s:pieces.black , 'none'	   )
+call s:HL('Typedef'	  	  , s:pieces.gray	, s:pieces.black , 'none'	   )
+call s:HL('StorageClass'  , s:pieces.gray, s:pieces.black , 'none'	   )
+call s:HL('Structure'	  , s:pieces.gray, s:pieces.black , 'none'	   )
 
 " FLOW CONTROL
 call s:HL('Statement'	  , s:pieces.white	, s:pieces.black , 'none'	   )
