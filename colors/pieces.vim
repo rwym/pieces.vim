@@ -69,7 +69,7 @@ call s:HL('Title'		  , s:pieces.white, s:pieces.black , 'none'	   )
 call s:HL('Todo'		  , s:pieces.purple, s:pieces.black , 'none'	   )
 
 " LINES, COLUMNS
-call s:HL('LineNr'		  , s:pieces.white, s:pieces.black , 'italic'	   )
+" call s:HL('LineNr'		  , s:pieces.white, s:pieces.black , 'italic'	   )
 call s:HL('CursorLine'	  , s:pieces.white , s:pieces.black, 'none'	   )
 call s:HL('CursorLineNr'  , s:pieces.white, s:pieces.black , 'none'	   )
 
